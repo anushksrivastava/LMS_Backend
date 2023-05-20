@@ -33,14 +33,11 @@ public class StudentController {
         return studentService.updateMobNo(updateStudentMobRequestDto);
     }
 
-    // delete a student by id
-
-    // update the student by id
-
+    
     @GetMapping("/get_student")
     public StudentResponseDto getStudent(@RequestParam("id") int id){
         return studentService.getStudentById(id);
     }
 
-    // find all the students
+    
 }
