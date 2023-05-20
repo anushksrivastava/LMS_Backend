@@ -23,13 +23,5 @@ public class AuthorController {
 
         return authorService.getByEmail(email);
     }
-    // delete a student by id
-
-    // update the student by id
-
-    // find a student by id
-
-    // find all the students
-
-    // get all the authors of a particular age
+    
 }
