@@ -21,9 +21,5 @@ public class BookController {
         return bookService.addBook(book);
     }
 
-    // find all the books
-
-    // find all the books of a particular authorId
-
-    // // find the number of books written by an autho
+    
 }
