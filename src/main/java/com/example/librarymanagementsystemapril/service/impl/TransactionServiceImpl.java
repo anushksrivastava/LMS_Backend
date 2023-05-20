@@ -96,7 +96,7 @@ public class TransactionServiceImpl implements TransactionService {
         String text = "Congrats! " + card.getStudent().getName() +  " You have been issued the book " + book.getTitle();
 
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("acciojobbackendapril@gmail.com");
+        message.setFrom("anushks23@gmail.com");
         message.setTo(card.getStudent().getMobNo());
         message.setSubject("Issue book");
         message.setText(text);
